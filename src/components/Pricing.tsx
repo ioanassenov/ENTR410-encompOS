@@ -1,15 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Slack, MessageSquare, Ticket, Mail, Github, FileText, Calendar } from "lucide-react";
 
 const Pricing = () => {
   const features = [
     "Unlimited decisions tracked",
     "Team collaboration",
     "Freshness monitoring",
-    "Slack/Teams integration",
     "AI-powered insights",
     "Priority support"
+  ];
+
+  const integrations = [
+    { name: "Slack", icon: Slack },
+    { name: "Teams", icon: MessageSquare },
+    { name: "Jira", icon: Ticket },
+    { name: "Google", icon: Calendar },
+    { name: "Outlook", icon: Mail },
+    { name: "GitHub", icon: Github },
+    { name: "Notion", icon: FileText }
   ];
 
   return (
@@ -42,6 +51,22 @@ const Pricing = () => {
                   <span className="text-foreground">{feature}</span>
                 </div>
               ))}
+              
+              <div className="pt-2">
+                <div className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+                  <div className="flex-1">
+                    <span className="text-foreground block mb-3">Integrations with:</span>
+                    <div className="flex flex-wrap gap-3">
+                      {integrations.map((integration) => (
+                        <div key={integration.name} className="flex items-center gap-2 text-muted-foreground" title={integration.name}>
+                          <integration.icon className="w-5 h-5" />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </CardContent>
             
             <CardFooter className="pt-8">
