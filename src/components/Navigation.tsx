@@ -14,7 +14,7 @@ const Navigation = () => {
         
         <div className="flex items-center gap-4">
           {!isDemo && (
-            <Button asChild variant="ghost" size="sm">
+            <Button asChild variant="hero" size="sm">
               <Link to="/demo">View Demo</Link>
             </Button>
           )}
@@ -23,7 +23,7 @@ const Navigation = () => {
               <Link to="/">Home</Link>
             </Button>
           )}
-          <Button asChild variant="hero" size="sm">
+          <Button asChild variant="ghost" size="sm">
             <Link to="/about">About</Link>
           </Button>
         </div>
