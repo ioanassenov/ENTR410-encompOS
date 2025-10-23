@@ -3,11 +3,13 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Mail, Linkedin } from "lucide-react";
+import ImpactGraph from "@/components/demo/ImpactGraph";
 
 const About = () => {
   const team = [
     {
       name: "Kefei Xiao",
+      image: "/team/kefeixiao.jpg",
       role: "CEO & Co-founder",
       initials: "KX",
       bio: "Aspiring data scientist with experience in Agentic AI. Passionate about decision intelligence and organizational alignment.",
@@ -16,6 +18,7 @@ const About = () => {
     },
     {
       name: "Ioan Assenov",
+      image: "/team/ioanassenov.jpg",
       role: "CTO & Co-founder",
       initials: "IA",
       bio: "Former Director of Systems Engineering at MASA. Loves turning complex problems into elegant systems.",
@@ -24,6 +27,7 @@ const About = () => {
     },
     {
       name: "Maya Lindsley",
+      image: "/team/mayalindsley.jpg",
       role: "Head of Product & Co-founder",
       initials: "ML",
       bio: "Previously a digital strategy consultant at Google. Believes great tools should feel invisible while making teams unstoppable.",
@@ -81,6 +85,7 @@ const About = () => {
                   <CardContent className="p-8">
                     <div className="flex items-start gap-6">
                       <Avatar className="w-20 h-20 border-2 border-primary/20">
+                        <AvatarImage src={member.image} alt={member.name} />
                         <AvatarFallback className="bg-primary/10 text-primary text-xl font-bold">
                           {member.initials}
                         </AvatarFallback>
