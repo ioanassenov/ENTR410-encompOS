@@ -41,6 +41,14 @@ const About = () => {
       bio: "Built automated netword device data management. Obsessed with performance, reliability, and developer experience.",
       email: "#",
       linkedin: "https://www.linkedin.com/in/dylan-pham-331a98247/"
+    },
+    {
+      name: "Adam Shiff",
+      role: "Head of Strategy & Co-founder",
+      initials: "DP",
+      bio: "Real estate analyst with experience in investment underwriting and market research at M1 Capital. Energized by uncovering growth opportunities through data-driven insights and strategic analysis.",
+      email: "#",
+      linkedin: "https://www.linkedin.com/in/adam-shiff/"
     }
   ];
 
@@ -85,7 +93,11 @@ const About = () => {
                   <CardContent className="p-8">
                     <div className="flex items-start gap-6">
                       <Avatar className="w-20 h-20 border-2 border-primary/20">
-                        <img src={member.image} className="h-full w-full object-cover" />
+                        <img
+                          src={member.image} 
+                          className="h-full w-full object-cover"
+                          onError={(e) => (e.currentTarget.style.display = "none")}
+                        />
                         <AvatarFallback className="bg-primary/10 text-primary text-xl font-bold">
                           {member.initials}
                         </AvatarFallback>
