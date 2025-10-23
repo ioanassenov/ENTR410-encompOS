@@ -45,6 +45,7 @@ const About = () => {
     {
       name: "Adam Shiff",
       role: "Head of Strategy & Co-founder",
+      image: "/team/adamshiff.jpg",
       initials: "DP",
       bio: "Real estate analyst with experience in investment underwriting and market research at M1 Capital. Energized by uncovering growth opportunities through data-driven insights and strategic analysis.",
       email: "#",
