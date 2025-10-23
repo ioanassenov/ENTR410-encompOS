@@ -9,7 +9,7 @@ const About = () => {
     {
       name: "Kefei Xiao",
       role: "CEO & Co-founder",
-      initials: "SC",
+      initials: "KX",
       bio: "Aspiring data scientist with experience in Agentic AI. Passionate about decision intelligence and organizational alignment.",
       email: "#",
       linkedin: "https://www.linkedin.com/in/kefei-xiao-971a16329/"
@@ -17,23 +17,23 @@ const About = () => {
     {
       name: "Ioan Assenov",
       role: "CTO & Co-founder",
-      initials: "MR",
+      initials: "IA",
       bio: "Former Director of Systems Engineering at MASA. Loves turning complex problems into elegant systems.",
       email: "#",
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/ioan-assenov"
     },
     {
       name: "Maya Lindsley",
-      role: "Head of Product",
-      initials: "AP",
+      role: "Head of Product & Co-founder",
+      initials: "ML",
       bio: "Previously a digital strategy consultant at Google. Believes great tools should feel invisible while making teams unstoppable.",
       email: "#",
       linkedin: "https://www.linkedin.com/in/mayalindsley/"
     },
     {
       name: "Dylan Pham",
-      role: "Head of Engineering",
-      initials: "DK",
+      role: "Head of Engineering & Co-founder",
+      initials: "DP",
       bio: "Built automated netword device data management. Obsessed with performance, reliability, and developer experience.",
       email: "#",
       linkedin: "https://www.linkedin.com/in/dylan-pham-331a98247/"
