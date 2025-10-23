@@ -7,36 +7,36 @@ import { Mail, Linkedin } from "lucide-react";
 const About = () => {
   const team = [
     {
-      name: "Sarah Chen",
+      name: "Kefei Xiao",
       role: "CEO & Co-founder",
       initials: "SC",
-      bio: "Former VP of Product at a Fortune 500 company. Passionate about decision intelligence and organizational alignment.",
-      email: "sarah@encompos.ai",
-      linkedin: "#"
+      bio: "Aspiring data scientist with experience in Agentic AI. Passionate about decision intelligence and organizational alignment.",
+      email: "#",
+      linkedin: "https://www.linkedin.com/in/kefei-xiao-971a16329/"
     },
     {
-      name: "Marcus Rodriguez",
+      name: "Ioan Assenov",
       role: "CTO & Co-founder",
       initials: "MR",
-      bio: "Ex-Google engineer with 15 years building AI-powered enterprise solutions. Loves turning complex problems into elegant systems.",
-      email: "marcus@encompos.ai",
+      bio: "Former Director of Systems Engineering at MASA. Loves turning complex problems into elegant systems.",
+      email: "#",
       linkedin: "#"
     },
     {
-      name: "Aisha Patel",
+      name: "Maya Lindsley",
       role: "Head of Product",
       initials: "AP",
-      bio: "Previously led product teams at Notion and Asana. Believes great tools should feel invisible while making teams unstoppable.",
-      email: "aisha@encompos.ai",
-      linkedin: "#"
+      bio: "Previously a digital strategy consultant at Google. Believes great tools should feel invisible while making teams unstoppable.",
+      email: "#",
+      linkedin: "https://www.linkedin.com/in/mayalindsley/"
     },
     {
-      name: "David Kim",
+      name: "Dylan Pham",
       role: "Head of Engineering",
       initials: "DK",
-      bio: "Built distributed systems at Scale AI. Obsessed with performance, reliability, and developer experience.",
-      email: "david@encompos.ai",
-      linkedin: "#"
+      bio: "Built automated netword device data management. Obsessed with performance, reliability, and developer experience.",
+      email: "#",
+      linkedin: "https://www.linkedin.com/in/dylan-pham-331a98247/"
     }
   ];
 
