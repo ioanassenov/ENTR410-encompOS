@@ -36,8 +36,8 @@ const Pricing = () => {
         <div className="max-w-md mx-auto">
           <Card className="border-2 border-accent/20 shadow-xl hover:shadow-2xl transition-all">
             <CardHeader className="text-center pb-8">
-              <CardTitle className="text-3xl font-bold mb-2">Growth</CardTitle>
-              <CardDescription className="text-lg">Perfect for growing teams</CardDescription>
+              <CardTitle className="text-3xl font-bold mb-2">encompOS' DecisionOS</CardTitle>
+              <CardDescription className="text-lg">A united source of truth for your teams</CardDescription>
               <div className="mt-6">
                 <span className="text-5xl font-bold text-accent">$10</span>
                 <span className="text-muted-foreground text-lg">/user/month</span>
