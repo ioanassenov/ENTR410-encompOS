@@ -85,7 +85,7 @@ const About = () => {
                   <CardContent className="p-8">
                     <div className="flex items-start gap-6">
                       <Avatar className="w-20 h-20 border-2 border-primary/20">
-                        <AvatarImage src={member.image} alt={member.name} />
+                        <img src={member.image} alt={member.name} className="h-full w-full object-cover" />
                         <AvatarFallback className="bg-primary/10 text-primary text-xl font-bold">
                           {member.initials}
                         </AvatarFallback>
