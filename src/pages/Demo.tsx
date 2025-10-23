@@ -17,7 +17,7 @@ const Demo = () => {
               Live Dashboard Demo
             </h1>
             <p className="text-xl text-muted-foreground">
-              Explore how Compros keeps your team's decisions fresh and aligned
+              Explore how encompOS keeps your team's decisions fresh and aligned
             </p>
           </div>
           
