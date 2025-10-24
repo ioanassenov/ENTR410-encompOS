@@ -71,7 +71,7 @@ const Pricing = () => {
             
             <CardFooter className="pt-8">
               <Button asChild variant="hero" size="lg" className="w-full">
-                <a href="mailto:hello@compros.ai">Start Free Trial</a>
+                <a href="#">Start Free Trial</a>
               </Button>
             </CardFooter>
           </Card>
