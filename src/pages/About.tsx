@@ -36,6 +36,7 @@ const About = () => {
     },
     {
       name: "Dylan Pham",
+      image: "/team/dylanpham.jpg",
       role: "Head of Engineering & Co-founder",
       initials: "DP",
       bio: "Built automated netword device data management. Obsessed with performance, reliability, and developer experience.",
@@ -44,8 +45,8 @@ const About = () => {
     },
     {
       name: "Adam Shiff",
-      role: "Head of Strategy & Co-founder",
       image: "/team/adamshiff.jpg",
+      role: "Head of Strategy & Co-founder",
       initials: "DP",
       bio: "Real estate analyst with experience in investment underwriting and market research at M1 Capital. Energized by uncovering growth opportunities through data-driven insights and strategic analysis.",
       email: "#",
