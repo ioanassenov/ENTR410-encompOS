@@ -39,7 +39,7 @@ const Pricing = () => {
               <CardTitle className="text-3xl font-bold mb-2">encompOS' DecisionOS</CardTitle>
               <CardDescription className="text-lg">A united source of truth for your teams</CardDescription>
               <div className="mt-6">
-                <span className="text-5xl font-bold text-accent">$18</span>
+                <span className="text-5xl font-bold text-accent">$12</span>
                 <span className="text-muted-foreground text-lg">/user/month</span>
               </div>
             </CardHeader>
